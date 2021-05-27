@@ -1,0 +1,85 @@
+/*Arquivo CSS*/
+ body{
+ 	font:1em/200%'Reggae One', cursive;
+ 	background:#000000	
+}
+
+header {
+	height:180px;
+	background:#FF8C00;
+	color:#000000	
+}
+
+main {
+	width:300px;
+	float:left;
+	background:#808080
+}
+
+aside {
+    width:600px;
+    float:right;
+    background:#fff
+}
+
+footer {
+	clear:both;
+}
+
+section {
+	padding:5px;
+	width:915px;
+	margin: 20px auto;
+}
+
+main {
+	background:#C0C0C0;
+}
+
+aside {
+	background:#fff;
+}
+
+footer {
+	background:#FF0000
+}
+
+header, main,aside {margin-bottom:5px}
+section, header, aside, main, footer{
+	border:solid 2px #ccc;
+	border-radius:5px;
+}
+
+@media screen and (max-width:480) {
+	header {height:auto;}
+	aside  {display:none;}
+}
+
+@media screen and (max-width:768px) {
+         main {width:auto; float:none;}
+         aside{width:auto; float:none }
+}
+
+@media screen and (max-width:1279) {
+	section {width: 90%}
+	main {width:65%}
+	aside {width:30%}
+}
+
+.menu a {
+	background:#000;
+	color:#fff;
+	padding:1% 2%;
+	border:1px solid #fff
+	border-radius:2px;
+	margin-right:5px;
+	font-size:18px;
+	font-weight:700px;
+	text-decoration:none;
+}
+
+.menu a:hover {
+	background:#000;
+	color:#DCDCDC;
+	border:1px solid #DCDCDC;
+}
